@@ -6,8 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>Drip Drop</h1>
-        <h2>Drip Drop2</h2>
+        <h1>Dripdrop</h1>
+        <h2>Welcome to Dripdrop</h2>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
