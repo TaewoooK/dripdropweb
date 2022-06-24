@@ -31,5 +31,12 @@
         ]
       }
     }
+  },
+  "storage": {
+    "s3dripdropwebstorageimagestest": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": []
+    }
   }
 }
