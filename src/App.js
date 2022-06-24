@@ -1,13 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import { withAuthenticator } from '@aws-amplify/ui-react'
 
-function App() {
+function App({signOut, user}) {
   return (
     <div className="App">
       <header className="App-header">
+        <div>
+          <p>{user.attributes.email} <button onClick={signOut}>Sign out</button>
+          </p>
+          
+        </div>
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Drip Drop</h1>
-        <h2>Drip Drop2</h2>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -24,4 +29,4 @@ function App() {
   );
 }
 
-export default App;
+export default withAuthenticator(App);

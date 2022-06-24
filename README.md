@@ -10,7 +10,7 @@ In the project directory, you can run:
 
 Run this command to include the correct libraries to run the following commands:
 
-### `npm start`
+### `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.

@@ -1,0 +1,12 @@
+{
+  "resourceName": "s3dripdropwebstorageimagestest",
+  "bucketName": "dripdropweb-storage-images-test",
+  "policyUUID": "91525d3d",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}
