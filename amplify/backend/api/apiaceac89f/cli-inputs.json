@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/images/{imagePath}": {
+      "name": "/images/{imagePath}",
+      "lambdaFunction": "ImageHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

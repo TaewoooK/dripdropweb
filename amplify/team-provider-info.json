@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "dripdropweb": {}
+      },
+      "function": {
+        "ImageHandler": {
+          "deploymentBucketName": "amplify-amplify0c7a973b1e294-staging-30238-deployment",
+          "s3Key": "amplify-builds/ImageHandler-646768707359746e6b51-build.zip"
+        }
       }
     }
   }
