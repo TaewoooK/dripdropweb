@@ -12,11 +12,12 @@ If Windows machine:
 ## VSCode Setup Windows
 1. Clone repo into local vscode environment
 2. Run the following commands in ubuntu wsl (might take a while)
-`
+```
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install npm
-`
+```
+3. Run the `npm install` in terminal
 
 ## VSCode Setup MacOS
 1. Clone repo into local vscode environment
@@ -24,8 +25,8 @@ sudo apt-get install npm
 
 ## Connecting to Amplify
 1. Ask a current AWS founder to create an AWS Profile to connect to Amplify
-2. After AWS login, go to AWS Amplfy and set up the backend environments amplify studio
-3. Make sure that the region is selected to us-east-1 (N.Virginia)
+2. Make sure that the region is selected to us-east-1 (N.Virginia)
+3. After AWS login, go to AWS Amplfy and set up the backend environments amplify studio
 4. On the console, look on the left side for Authentication.
 5. If the authentication is not deloyed (indicated at the top in green), deloy the authentication and wait until it is finished as indicated on the top right corner.
 6. After the Auth is deployed, go into ubuntu wsl (terminal on mac) and install Amplify CLI with `npm install -g @aws-amplify/cli`
