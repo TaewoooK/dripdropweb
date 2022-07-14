@@ -2,6 +2,10 @@ import './App.css';
 import {
   withAuthenticator
 } from '@aws-amplify/ui-react'
+import Amplify, { API } from 'aws-amplify';
+
+const myAPI = "dripdropapi";
+const path = "/imageId";
 
 function App({
   signOut,
