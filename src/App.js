@@ -28,8 +28,4 @@ function App({
   );
 }
 
-function uploadImage() {
-  
-}
-
 export default withAuthenticator(App);
