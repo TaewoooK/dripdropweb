@@ -3,17 +3,19 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import '@aws-amplify/ui-react/styles.css'
-
+import './styles.css'
 import Amplify from 'aws-amplify'
 import config from './aws-exports'
 import { AmplifyProvider } from '@aws-amplify/ui-react'
-
+import { BrowserRouter} from 'react-router-dom'
 Amplify.configure(config)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <AmplifyProvider>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </AmplifyProvider>
 );
 
