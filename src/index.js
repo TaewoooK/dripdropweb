@@ -11,6 +11,8 @@ import { AmplifyProvider } from '@aws-amplify/ui-react'
 
 Amplify.configure(config)
 
+var cors = require('cors')
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <AmplifyProvider>
