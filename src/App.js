@@ -22,19 +22,8 @@ class App extends Component{
           <div>
             <button onClick={signOut}>sign out</button>
           </div>
-          <h1> Drip Drop </h1>{" "}
-          <p>
-            Edit <code> src / App.js </code> and save to reload.{" "}
-          </p>{" "}
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React{" "}
-          </a>{" "}
-        </header>{" "}
+          <h3> dripdrop </h3>
+        </header>
       </div>
     );
   }
